@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name eeprom_manual)(type Legacy)(uri ${KIPRJMOD}/eeprom_manual.lib)(options "")(descr ""))
+  (lib (name eeprom_manual-rescue)(type Legacy)(uri ${KIPRJMOD}/eeprom_manual-rescue.lib)(options "")(descr ""))
+)
