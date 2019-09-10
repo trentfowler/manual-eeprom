@@ -837,7 +837,7 @@ U 1 1 5D8B66E6
 P 3940 6190
 F 0 "U1" H 3940 6432 50  0000 C CNN
 F 1 "L7805" H 3940 6341 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 3965 6040 50  0001 L CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3965 6040 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 3940 6140 50  0001 C CNN
 	1    3940 6190
 	1    0    0    -1  
