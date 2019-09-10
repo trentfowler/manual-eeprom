@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\trent\Documents\pcbs\eeprom_manual\eeprom_manual.sch)
-    (date "9/9/2019 2:03:49 PM")
+    (date "9/10/2019 12:16:34 AM")
     (tool "Eeschema (5.1.2)-2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -231,7 +231,7 @@
       (tstamp 5D6F3B35))
     (comp (ref U1)
       (value L7805)
-      (footprint Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown)
+      (footprint Package_TO_SOT_THT:TO-220-3_Vertical)
       (datasheet http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf)
       (libsource (lib Regulator_Linear) (part L7805) (description "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"))
       (sheetpath (names /) (tstamps /))
