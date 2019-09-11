@@ -46,19 +46,6 @@ F 12 "Active" H 1770 5890 60  0001 L CNN "Status"
 $EndComp
 Wire Wire Line
 	1370 4790 1100 4790
-$Comp
-L power:+5V #PWR?
-U 1 1 5D7BF593
-P 1100 4380
-AR Path="/5D7BF593" Ref="#PWR?"  Part="1" 
-AR Path="/5D79AAB2/5D7BF593" Ref="#PWR09"  Part="1" 
-F 0 "#PWR09" H 1100 4230 50  0001 C CNN
-F 1 "+5V" H 1115 4553 50  0000 C CNN
-F 2 "" H 1100 4380 50  0001 C CNN
-F 3 "" H 1100 4380 50  0001 C CNN
-	1    1100 4380
-	1    0    0    -1  
-$EndComp
 Text Label 1450 4940 0    39   ~ 0
 OUTPUT_MODE
 Text Label 1500 4530 0    39   ~ 0
@@ -102,12 +89,6 @@ F 3 "" H 7420 3460 50  0001 C CNN
 	1    7420 3460
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8070 1910 8390 1910
-Wire Wire Line
-	8070 2110 8590 2110
-Wire Wire Line
-	8070 2310 8790 2310
 $Comp
 L Device:R_Small_US R?
 U 1 1 5D7BF5B1
@@ -121,10 +102,6 @@ F 3 "~" H 9860 2910 50  0001 C CNN
 	1    9860 2910
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	9670 2710 9190 2710
-Wire Wire Line
-	8070 2210 8690 2210
 $Comp
 L Device:R_Network10_US RN?
 U 1 1 5D7BF5B9
@@ -202,19 +179,6 @@ Wire Wire Line
 	1450 3020 1450 3170
 Wire Wire Line
 	1220 2550 1220 2320
-$Comp
-L power:+5V #PWR?
-U 1 1 5D7BF5DE
-P 1220 2320
-AR Path="/5D7BF5DE" Ref="#PWR?"  Part="1" 
-AR Path="/5D79AAB2/5D7BF5DE" Ref="#PWR011"  Part="1" 
-F 0 "#PWR011" H 1220 2170 50  0001 C CNN
-F 1 "+5V" H 1235 2493 50  0000 C CNN
-F 2 "" H 1220 2320 50  0001 C CNN
-F 3 "" H 1220 2320 50  0001 C CNN
-	1    1220 2320
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1450 2480 1450 2550
 $Comp
@@ -267,19 +231,6 @@ Wire Wire Line
 	1450 2550 1450 2580
 Wire Wire Line
 	1220 3710 1220 3480
-$Comp
-L power:+5V #PWR?
-U 1 1 5D7BF5FD
-P 1220 3480
-AR Path="/5D7BF5FD" Ref="#PWR?"  Part="1" 
-AR Path="/5D79AAB2/5D7BF5FD" Ref="#PWR012"  Part="1" 
-F 0 "#PWR012" H 1220 3330 50  0001 C CNN
-F 1 "+5V" H 1235 3653 50  0000 C CNN
-F 2 "" H 1220 3480 50  0001 C CNN
-F 3 "" H 1220 3480 50  0001 C CNN
-	1    1220 3480
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1220 3710 1450 3710
 $Comp
@@ -580,21 +531,6 @@ Wire Wire Line
 Connection ~ 6770 2210
 Wire Wire Line
 	6770 2210 7170 2210
-$Comp
-L power:+5V #PWR?
-U 1 1 5D7BF697
-P 4630 3110
-AR Path="/5D7BF697" Ref="#PWR?"  Part="1" 
-AR Path="/5D79AAB2/5D7BF697" Ref="#PWR015"  Part="1" 
-F 0 "#PWR015" H 4630 2960 50  0001 C CNN
-F 1 "+5V" V 4570 3060 50  0000 C CNN
-F 2 "" H 4630 3110 50  0001 C CNN
-F 3 "" H 4630 3110 50  0001 C CNN
-	1    4630 3110
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	4630 3110 4790 3110
 Wire Wire Line
 	3600 2910 3720 2910
 Wire Wire Line
@@ -705,85 +641,6 @@ Wire Wire Line
 Connection ~ 2760 2210
 Wire Wire Line
 	2760 2210 2760 2310
-Wire Wire Line
-	8390 4900 8390 5190
-Wire Wire Line
-	8390 5190 8490 5190
-Wire Wire Line
-	8490 4900 8490 5190
-Connection ~ 8490 5190
-Wire Wire Line
-	8490 5190 8590 5190
-Wire Wire Line
-	8590 4900 8590 5190
-Connection ~ 8590 5190
-Wire Wire Line
-	8590 5190 8690 5190
-Wire Wire Line
-	8690 4900 8690 5190
-Wire Wire Line
-	8790 4900 8790 5190
-Connection ~ 8790 5190
-Wire Wire Line
-	8790 5190 8890 5190
-Connection ~ 8690 5190
-Wire Wire Line
-	8690 5190 8790 5190
-Wire Wire Line
-	8890 4900 8890 5190
-Wire Wire Line
-	8990 4900 8990 5190
-Wire Wire Line
-	9090 4900 9090 5190
-Wire Wire Line
-	9190 4900 9190 5190
-Connection ~ 9190 5190
-Wire Wire Line
-	9190 5190 9290 5190
-Connection ~ 9090 5190
-Wire Wire Line
-	9090 5190 9190 5190
-Connection ~ 8990 5190
-Wire Wire Line
-	8990 5190 9090 5190
-Connection ~ 8890 5190
-Wire Wire Line
-	8890 5190 8990 5190
-Wire Wire Line
-	9290 4900 9290 5190
-$Comp
-L Switch:SW_DIP_x01 SW?
-U 1 1 5D7BF6F7
-P 9510 4600
-AR Path="/5D7BF6F7" Ref="SW?"  Part="1" 
-AR Path="/5D79AAB2/5D7BF6F7" Ref="SW4"  Part="1" 
-F 0 "SW4" V 9510 4400 50  0000 C CNN
-F 1 "SW_DIP_x01" H 9520 4750 50  0001 C CNN
-F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm" H 9510 4600 50  0001 C CNN
-F 3 "~" H 9510 4600 50  0001 C CNN
-	1    9510 4600
-	0    -1   1    0   
-$EndComp
-$Comp
-L Switch:SW_DIP_x10 SW?
-U 1 1 5D7BF6FD
-P 8890 4600
-AR Path="/5D7BF6FD" Ref="SW?"  Part="1" 
-AR Path="/5D79AAB2/5D7BF6FD" Ref="SW3"  Part="1" 
-F 0 "SW3" V 8900 5300 50  0000 C CNN
-F 1 "SW_DIP_x10" H 8880 4060 50  0001 C CNN
-F 2 "Button_Switch_THT:SW_DIP_SPSTx10_Slide_9.78x27.58mm_W7.62mm_P2.54mm" H 8890 4600 50  0001 C CNN
-F 3 "~" H 8890 4600 50  0001 C CNN
-	1    8890 4600
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	9510 4900 9510 5190
-Wire Wire Line
-	9510 5190 9290 5190
-Connection ~ 9290 5190
-Wire Wire Line
-	9510 5190 9740 5190
 Wire Wire Line
 	10020 3640 10210 3640
 Wire Wire Line
@@ -993,73 +850,6 @@ Wire Wire Line
 Wire Wire Line
 	10610 3240 10770 3240
 Wire Wire Line
-	8390 4140 9820 4140
-Wire Wire Line
-	8490 4040 9820 4040
-Wire Wire Line
-	8590 3940 9820 3940
-Wire Wire Line
-	8690 3840 9820 3840
-Wire Wire Line
-	8790 3740 9820 3740
-Wire Wire Line
-	8890 3640 9820 3640
-Wire Wire Line
-	8990 3540 9820 3540
-Wire Wire Line
-	9090 3440 9820 3440
-Wire Wire Line
-	9190 3340 9820 3340
-Wire Wire Line
-	9290 3240 9820 3240
-Wire Wire Line
-	9510 3140 9820 3140
-Connection ~ 8390 1910
-Connection ~ 8490 2010
-Wire Wire Line
-	8490 2010 8070 2010
-Connection ~ 8590 2110
-Connection ~ 8690 2210
-Connection ~ 8790 2310
-Connection ~ 8890 2410
-Wire Wire Line
-	8890 2410 9670 2410
-Connection ~ 8990 2510
-Wire Wire Line
-	8990 2510 9670 2510
-Connection ~ 9090 2610
-Wire Wire Line
-	9090 2610 9670 2610
-Connection ~ 9190 2710
-Connection ~ 9290 2810
-Wire Wire Line
-	9290 2810 9670 2810
-Connection ~ 9510 2910
-Wire Wire Line
-	9510 2910 9760 2910
-Wire Wire Line
-	8390 1910 9670 1910
-Wire Wire Line
-	8490 2010 9670 2010
-Wire Wire Line
-	8590 2110 9670 2110
-Wire Wire Line
-	8690 2210 9670 2210
-Wire Wire Line
-	8790 2310 9670 2310
-Wire Wire Line
-	8070 2410 8890 2410
-Wire Wire Line
-	8070 2510 8990 2510
-Wire Wire Line
-	8070 2610 9090 2610
-Wire Wire Line
-	8070 2710 9190 2710
-Wire Wire Line
-	8070 2810 9290 2810
-Wire Wire Line
-	8070 2910 9510 2910
-Wire Wire Line
 	9960 2910 10770 2910
 Wire Wire Line
 	10070 2810 10770 2810
@@ -1068,80 +858,242 @@ Wire Wire Line
 Connection ~ 10770 2910
 Wire Wire Line
 	10770 2910 10770 3140
-Connection ~ 8390 4140
-Wire Wire Line
-	8390 4140 8390 1910
-Connection ~ 8490 4040
-Wire Wire Line
-	8490 4040 8490 2010
-Connection ~ 8590 3940
-Wire Wire Line
-	8590 3940 8590 2110
-Connection ~ 8690 3840
-Wire Wire Line
-	8690 3840 8690 2210
-Connection ~ 8790 3740
-Wire Wire Line
-	8790 3740 8790 2310
-Connection ~ 8890 3640
-Wire Wire Line
-	8890 3640 8890 2410
-Connection ~ 8990 3540
-Wire Wire Line
-	8990 3540 8990 2510
-Connection ~ 9090 3440
-Wire Wire Line
-	9090 3440 9090 2610
-Connection ~ 9190 3340
-Wire Wire Line
-	9190 3340 9190 2710
-Connection ~ 9290 3240
-Wire Wire Line
-	9290 3240 9290 2810
-Connection ~ 9510 3140
-Wire Wire Line
-	9510 3140 9510 2910
 Connection ~ 10770 3140
 Connection ~ 10770 3240
 Wire Wire Line
 	10770 3240 10770 3460
 Wire Wire Line
-	8390 4140 8390 4300
-Wire Wire Line
-	8490 4040 8490 4300
-Wire Wire Line
-	8590 3940 8590 4300
-Wire Wire Line
-	8790 3740 8790 4300
-Wire Wire Line
-	8890 3640 8890 4300
-Wire Wire Line
-	8990 3540 8990 4300
-Wire Wire Line
-	9090 3440 9090 4300
-Wire Wire Line
-	9190 3340 9190 4300
-Wire Wire Line
-	9290 3240 9290 4300
-Wire Wire Line
-	8690 3840 8690 4300
-Wire Wire Line
-	9510 3140 9510 4300
-Wire Wire Line
 	10770 3140 10770 3240
-Wire Wire Line
-	9740 5110 9740 5190
-Connection ~ 9510 5190
 Text GLabel 2760 1980 1    39   Input ~ 0
 5V_SHARED
 Text GLabel 5290 1680 1    39   Input ~ 0
 5V_SHARED
 Text GLabel 7470 1410 1    39   Input ~ 0
 5V_SHARED
-Text GLabel 9740 5110 2    39   Input ~ 0
-5V_SHARED
 Text GLabel 7010 5500 2    39   Input ~ 0
 5V_SHARED
 Wire Wire Line
 	6770 5500 7010 5500
+Wire Wire Line
+	8070 2910 8620 2910
+Connection ~ 8620 5210
+Wire Wire Line
+	8400 5210 8620 5210
+Wire Wire Line
+	8400 4920 8400 5210
+Wire Wire Line
+	9520 5210 9970 5210
+Text GLabel 9970 5210 2    39   Input ~ 0
+5V_SHARED
+Connection ~ 9520 5210
+$Comp
+L Switch:SW_DIP_x10 SW?
+U 1 1 5D7BF6FD
+P 9120 4620
+AR Path="/5D7BF6FD" Ref="SW?"  Part="1" 
+AR Path="/5D79AAB2/5D7BF6FD" Ref="SW3"  Part="1" 
+F 0 "SW3" V 9120 4030 50  0000 C CNN
+F 1 "SW_DIP_x10" H 9110 4080 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx10_Slide_9.78x27.58mm_W7.62mm_P2.54mm" H 9120 4620 50  0001 C CNN
+F 3 "~" H 9120 4620 50  0001 C CNN
+	1    9120 4620
+	0    -1   1    0   
+$EndComp
+$Comp
+L Switch:SW_DIP_x01 SW?
+U 1 1 5D7BF6F7
+P 8400 4620
+AR Path="/5D7BF6F7" Ref="SW?"  Part="1" 
+AR Path="/5D79AAB2/5D7BF6F7" Ref="SW4"  Part="1" 
+F 0 "SW4" V 8400 4800 50  0000 C CNN
+F 1 "SW_DIP_x01" H 8410 4770 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm" H 8400 4620 50  0001 C CNN
+F 3 "~" H 8400 4620 50  0001 C CNN
+	1    8400 4620
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	9520 4920 9520 5210
+Wire Wire Line
+	9120 5210 9220 5210
+Connection ~ 9120 5210
+Wire Wire Line
+	9220 5210 9320 5210
+Connection ~ 9220 5210
+Wire Wire Line
+	9320 5210 9420 5210
+Connection ~ 9320 5210
+Wire Wire Line
+	9420 5210 9520 5210
+Connection ~ 9420 5210
+Wire Wire Line
+	9420 4920 9420 5210
+Wire Wire Line
+	9320 4920 9320 5210
+Wire Wire Line
+	9220 4920 9220 5210
+Wire Wire Line
+	9120 4920 9120 5210
+Wire Wire Line
+	8920 5210 9020 5210
+Connection ~ 8920 5210
+Wire Wire Line
+	9020 5210 9120 5210
+Connection ~ 9020 5210
+Wire Wire Line
+	9020 4920 9020 5210
+Wire Wire Line
+	8920 4920 8920 5210
+Wire Wire Line
+	8820 5210 8920 5210
+Connection ~ 8820 5210
+Wire Wire Line
+	8820 4920 8820 5210
+Wire Wire Line
+	8720 5210 8820 5210
+Connection ~ 8720 5210
+Wire Wire Line
+	8720 4920 8720 5210
+Wire Wire Line
+	8620 5210 8720 5210
+Wire Wire Line
+	8620 4920 8620 5210
+Wire Wire Line
+	8070 1910 8400 1910
+Wire Wire Line
+	8070 2010 9520 2010
+Wire Wire Line
+	8070 2110 9420 2110
+Wire Wire Line
+	8070 2210 9320 2210
+Wire Wire Line
+	8070 2310 9220 2310
+Wire Wire Line
+	8070 2410 9120 2410
+Wire Wire Line
+	8070 2510 9020 2510
+Wire Wire Line
+	8070 2610 8920 2610
+Wire Wire Line
+	8070 2810 8720 2810
+Wire Wire Line
+	8070 2710 8820 2710
+Wire Wire Line
+	8400 4320 8400 4140
+Connection ~ 8400 1910
+Wire Wire Line
+	8400 1910 9670 1910
+Wire Wire Line
+	8620 2910 8620 3140
+Connection ~ 8620 2910
+Wire Wire Line
+	8620 2910 9760 2910
+Wire Wire Line
+	8720 2810 8720 3240
+Connection ~ 8720 2810
+Wire Wire Line
+	8720 2810 9670 2810
+Wire Wire Line
+	8820 2710 8820 3340
+Connection ~ 8820 2710
+Wire Wire Line
+	8820 2710 9670 2710
+Wire Wire Line
+	8920 2610 8920 3440
+Connection ~ 8920 2610
+Wire Wire Line
+	8920 2610 9670 2610
+Wire Wire Line
+	9020 2510 9020 3540
+Connection ~ 9020 2510
+Wire Wire Line
+	9020 2510 9670 2510
+Wire Wire Line
+	9120 2410 9120 3640
+Connection ~ 9120 2410
+Wire Wire Line
+	9120 2410 9670 2410
+Wire Wire Line
+	9220 2310 9220 3740
+Connection ~ 9220 2310
+Wire Wire Line
+	9220 2310 9670 2310
+Wire Wire Line
+	9320 2210 9320 3840
+Connection ~ 9320 2210
+Wire Wire Line
+	9320 2210 9670 2210
+Wire Wire Line
+	9420 2110 9420 3940
+Connection ~ 9420 2110
+Wire Wire Line
+	9420 2110 9670 2110
+Wire Wire Line
+	9520 2010 9520 4040
+Connection ~ 9520 2010
+Wire Wire Line
+	9520 2010 9670 2010
+Wire Wire Line
+	9820 3140 8620 3140
+Connection ~ 8620 3140
+Wire Wire Line
+	8620 3140 8620 4320
+Wire Wire Line
+	9820 3240 8720 3240
+Connection ~ 8720 3240
+Wire Wire Line
+	8720 3240 8720 4320
+Wire Wire Line
+	9820 3340 8820 3340
+Connection ~ 8820 3340
+Wire Wire Line
+	8820 3340 8820 4320
+Wire Wire Line
+	9820 3440 8920 3440
+Connection ~ 8920 3440
+Wire Wire Line
+	8920 3440 8920 4320
+Wire Wire Line
+	9820 3540 9020 3540
+Connection ~ 9020 3540
+Wire Wire Line
+	9020 3540 9020 4320
+Wire Wire Line
+	9820 3640 9120 3640
+Connection ~ 9120 3640
+Wire Wire Line
+	9120 3640 9120 4320
+Wire Wire Line
+	9820 3740 9220 3740
+Connection ~ 9220 3740
+Wire Wire Line
+	9220 3740 9220 4320
+Wire Wire Line
+	9820 3840 9320 3840
+Connection ~ 9320 3840
+Wire Wire Line
+	9320 3840 9320 4320
+Wire Wire Line
+	9820 3940 9420 3940
+Connection ~ 9420 3940
+Wire Wire Line
+	9420 3940 9420 4320
+Wire Wire Line
+	9820 4040 9520 4040
+Connection ~ 9520 4040
+Wire Wire Line
+	9520 4040 9520 4320
+Wire Wire Line
+	9820 4140 8400 4140
+Connection ~ 8400 4140
+Wire Wire Line
+	8400 4140 8400 1910
+Text GLabel 1220 2320 1    39   Input ~ 0
+5V_SHARED
+Text GLabel 1220 3480 1    39   Input ~ 0
+5V_SHARED
+Text GLabel 1100 4380 1    39   Input ~ 0
+5V_SHARED
+Text GLabel 4790 3110 0    39   Input ~ 0
+5V_SHARED
 $EndSCHEMATC
