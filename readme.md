@@ -3,16 +3,19 @@
 
 **Description:** KiCad project files for manual EEPROM programmer pcb that uses dip switches to program the the AT28C16 EEPROM
 
-**Schematic:**
+AT28C16 - http://cva.stanford.edu/classes/cs99s/datasheets/at28c16.pdf
 
-![schematic](https://i.imgur.com/Cq8XRg0.png)
+**Rev 1 final:**
 
-**pcb layout:**
+![schematic](https://i.imgur.com/WRPkA4P.png)
 
-![fill](https://i.imgur.com/b78cF5b.png)
+![no fill](https://i.imgur.com/zsWwC9.png)
 
-![no fill](https://i.imgur.com/FECvwCE.png)
+![front](https://i.imgur.com/35fpuWI.png)
 
-**3d:**
+![back](https://i.imgur.com/zvdU0BY.png)
 
-![3d](https://i.imgur.com/vcGlG2W.png)
+![3d-front](https://i.imgur.com/2rXFVzv.png)
+
+![3d-back](https://i.imgur.com/sivs64r.png)
+
