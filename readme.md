@@ -9,7 +9,7 @@ AT28C16 - http://cva.stanford.edu/classes/cs99s/datasheets/at28c16.pdf
 
 ![schematic](https://i.imgur.com/WRPkA4P.png)
 
-![no fill](https://i.imgur.com/zsWwC9.png)
+![no fill](https://i.imgur.com/zsWwC9N.png)
 
 ![front](https://i.imgur.com/35fpuWI.png)
 
